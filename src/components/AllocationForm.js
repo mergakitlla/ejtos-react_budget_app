@@ -72,8 +72,14 @@ const AllocationForm = (props) => {
                         Save
                     </button>
                 </div>
-                </div>
+                <br></br>
+                <br>
+                </br>
 
+                </div>
+<button className="btn btn-primary"onClick={() => alert('button click catched')} style={{ marginLeft: '2rem' }}>
+                       show Message
+                    </button>
         </div>
     );
 };
